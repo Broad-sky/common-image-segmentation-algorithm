@@ -16,9 +16,7 @@
 
 ### Model
 
-Here i will provide the model download link: 
-
-Model Url: https://pan.baidu.com/s/1AWj0dNWk0Nj1GhAVli6j7g
+Here i will provide the model download link:  https://pan.baidu.com/s/1AWj0dNWk0Nj1GhAVli6j7g
 
 Code: 4j3i
 
