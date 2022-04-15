@@ -1,0 +1,3 @@
+/home/feimaqz/solov2-linux/SOLOv2-TensorRT/build/CMakeFiles/rebuild_cache.dir
+/home/feimaqz/solov2-linux/SOLOv2-TensorRT/build/CMakeFiles/SOLOv2-TensorRT.dir
+/home/feimaqz/solov2-linux/SOLOv2-TensorRT/build/CMakeFiles/edit_cache.dir
