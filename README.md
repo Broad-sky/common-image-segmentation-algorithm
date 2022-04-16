@@ -16,9 +16,9 @@
 
 ### Model
 
-Here i will provide the model download link:  https://pan.baidu.com/s/1AWj0dNWk0Nj1GhAVli6j7g
+Download link:  https://pan.baidu.com/s/1lX6n44CtXlqdIV0NiS8jXA
 
-Code: 4j3i
+Code: fw8f
 
 ### Example
 
