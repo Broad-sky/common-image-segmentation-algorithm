@@ -31,7 +31,7 @@ SOLOv2-TensorRT$ cd build
 **2、run command.**
 
 ```powershell
- ./convertModel ./coco_20200412_permute.onnx -g ./seg_coco_permute.bin
+ ./convertModel ./solov2_r50_fpn_8gpu_3x.onnx -g ./seg_coco_permute.bin
 ```
 
 **3、run command.**
