@@ -1,6 +1,6 @@
 //!Time : 2021年03月04日 14时42分
 //!GitHub : https://github.com/Broad-sky
-//!Author : Sigma
+//!Author : Shengping Shen
 //!File : segmentation_trt.h
 //!About : Practice is perfect in one, formed in thought destoryed
 

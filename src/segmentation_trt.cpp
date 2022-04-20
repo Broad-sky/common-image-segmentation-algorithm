@@ -1,6 +1,6 @@
 //!Time : 2021年03月04日 14时38分
 //!GitHub : https://github.com/Broad-sky
-//!Author : Sigma
+//!Author : Shengping Shen
 //!File : segmentation_trt.h
 //!About : Practice is perfect in one, formed in thought destoryed
 
@@ -77,11 +77,17 @@ void segTRTSigma::get_class_names()
 	fst.open(names_path, std::ifstream::in);
 	if (fst.is_open())
 	{
-		std::string buff;
+		std::string buff{""};
 		while (std::getline(fst, buff))
 		{
 			class_names.push_back(buff);
 		}
+		for (auto vec: class_names )
+		{
+			std::cout<<vec;
+			/* code */
+		}
+		
 	}
 	num_class = class_names.size();
 	std::cout << "num of classes: " << num_class << std::endl;
@@ -615,9 +621,10 @@ void segTRTSigma::show_result_seg(const cv::Mat &bgr, const std::vector<Object> 
 		if (area < 81) continue;
 		int cx = int(sum_mask_x / area);
 		int cy = int(sum_mask_y / area);
-		const  unsigned char *color = colors[obj.label];
+		const  unsigned char *color = colors[i%80];
 		std::string text = class_names[obj.label];
-		std::cout << class_names[obj.label] << " " << obj.label << " = " << obj.prob << " at " << cx << " " << cy << std::endl;
+		std::string text_sub =text.substr(0, text.size()-1);
+		std::cout<<text_sub<< std::string(" ")  << std::to_string(obj.prob)  << std::endl;
 		int x = cx;
 		int y = cy;
 		for (int y = 0; y < bgr.rows; y++) {
@@ -634,9 +641,9 @@ void segTRTSigma::show_result_seg(const cv::Mat &bgr, const std::vector<Object> 
 				bgr1_p += 3;
 			}
 		}
-		cv::putText(image, text, cv::Point(x, y),
+		cv::putText(image, text_sub, cv::Point(x, y),
 			cv::FONT_HERSHEY_COMPLEX, 0.3, cv::Scalar(0, 0, 0), 1);
-		std::string temp_name = text;
+		std::string temp_name = text_sub;
 		message = message + temp_name + std::to_string(obj.prob);
 	}
 	segobj[0].message = message;
