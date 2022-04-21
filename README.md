@@ -22,25 +22,25 @@ Code: fw8f
 
 ### Example
 
-**1、go to the build directory.**
+**1. go to the build directory.**
 
 ```powershell
 SOLOv2-TensorRT$ cd build
 ```
 
-**2、run command.**
+**2. run command.**
 
 ```powershell
  ./convertModel ./solov2_r50_fpn_8gpu_3x.onnx -g ./seg_coco_permute.bin
 ```
 
-**3、run command.**
+**3. run command.**
 
 ```powershell
 SOLOv2-TensorRT/build$ make clean
 ```
 
-**4、Compile the project.**
+**4. Compile the project.**
 
 ```powershell
 SOLOv2-TensorRT/build$ make
@@ -71,7 +71,7 @@ Scanning dependencies of target SOLOv2-TensorRT
 [100%] Built target SOLOv2-TensorRT
 ```
 
-**5、run the demo program.**
+**5. run the demo program.**
 
 ```powershell
 SOLOv2-TensorRT/build$ ./SOLOv2-TensorRT -image_path ../image/1.jpg -save_path ./demo1.jpg
