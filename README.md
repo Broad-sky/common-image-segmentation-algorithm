@@ -1,10 +1,11 @@
 
 
 # TensorRT  SOLOv2
+### Introduction
 
 ​		This project is based on SOLOv2 instance segmentation, and the model is deployed with tensorRT, aiming to attract jade.【不需要libtorch，纯TensorRT部署SOLOv2，可快速移植至NX/TX2.】
 
-### Demo
+### Show result
 
 <img src="./image/result1.jpg" alt="result1" style="zoom:120%;" />
 
@@ -20,7 +21,7 @@ Download link:  https://pan.baidu.com/s/1lX6n44CtXlqdIV0NiS8jXA
 
 Code: fw8f
 
-### Example
+### Run example
 
 **1. go to the build directory.**
 
