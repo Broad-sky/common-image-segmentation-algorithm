@@ -3,7 +3,7 @@
 # TensorRT  SOLOv2
 ### Introduction
 
-​		This project is based on SOLOv2 instance segmentation, and the model is deployed with tensorRT, aiming to attract jade.【不需要libtorch，纯TensorRT部署SOLOv2，可快速移植至NX/TX2.】
+​		This project is based on SOLOv2 instance segmentation, and the model is deployed with tensorRT, aiming to attract jade.
 
 ### Show result
 
