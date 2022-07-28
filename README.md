@@ -4,8 +4,6 @@
 
 ## Instance segmentation part
 
-### SOLOv2
-
 #### Introduction
 
 ​		This Part is based on SOLOv2 instance segmentation, and the model is deployed with tensorRT, aiming to attract jade.
