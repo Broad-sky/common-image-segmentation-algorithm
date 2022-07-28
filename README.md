@@ -1,11 +1,16 @@
+# common image segmentation algorithms
 
+🚀🚀🚀🚀🚀The project will release some accelerated image segmentation algorithms, including: instance segmentation, semantic segmentation, panoramic segmentation, etc., such as: SOLOv2, Deeplab, Panoptic SegFormer, mainly using TensorRT acceleration library, all implemented in C++.
 
-# TensorRT  SOLOv2
-### Introduction
+## Instance segmentation part
 
-​		This project is based on SOLOv2 instance segmentation, and the model is deployed with tensorRT, aiming to attract jade.
+### SOLOv2
 
-### Show result
+#### Introduction
+
+​		This Part is based on SOLOv2 instance segmentation, and the model is deployed with tensorRT, aiming to attract jade.
+
+#### Show result
 
 <img src="./image/result1.jpg" alt="result1" style="zoom:120%;" />
 
@@ -15,13 +20,13 @@
 
 
 
-### Get model
+#### Get model
 
 Download link:  https://pan.baidu.com/s/1lX6n44CtXlqdIV0NiS8jXA
 
 Code: fw8f
 
-### Run example
+#### Run example
 
 **1. go to the build directory.**
 
@@ -89,3 +94,10 @@ snowboard 0.460805
 0.683118 seconds
 ```
 
+## Semantic segmentation part
+
+coming soon...
+
+## Panoramic segmentation part
+
+coming soon...
