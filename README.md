@@ -10,13 +10,7 @@
 
 #### Show result
 
-<img src="./SOLOv2-TensorRT/image/result1.jpg" alt="result1" style="zoom:120%;" />
-
-![result3](./SOLOv2-TensorRT/image/result3.jpg)
-
-<img src="./SOLOv2-TensorRT/image/result2.jpg" alt="result2" style="zoom:80%;" />
-
-
+<img src="./SOLOv2-TensorRT/image/result.jpg" alt="result1" style="zoom:120%;" />
 
 #### Get model
 
