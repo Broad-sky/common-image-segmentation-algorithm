@@ -1,6 +1,6 @@
 # common image segmentation algorithms
 
-🚀🚀🚀🚀🚀The project will release some accelerated image segmentation algorithms, including: instance segmentation, semantic segmentation, panoramic segmentation, etc., such as: SOLOv2, Deeplab, Panoptic SegFormer, mainly using TensorRT acceleration library, all implemented in C++.
+🚀The project will release some accelerated image segmentation algorithms, including: instance segmentation, semantic segmentation, panoramic segmentation, etc., such as: SOLOv2, Deeplab, Panoptic SegFormer, mainly using TensorRT acceleration library, all implemented in C++🚀.
 
 ## Instance segmentation part
 
